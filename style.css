@@ -1,0 +1,206 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,500;0,700;1,100;1,300;1,500;1,700&display=swap");
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url("./assets/image/fone4.jpg");
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+  padding: 70px 0 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.container {
+  width: 800px;
+  height: 100%;
+  margin: 0 auto;
+  background: white;
+}
+
+.header {
+  display: flex;
+  height: 150px;
+}
+h1 {
+  margin-bottom: -15px;
+}
+.header-left {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+  background: url("./assets/image/head3.jpg") no-repeat center center / cover;
+  padding: 0;
+  color: white;
+  margin-right: 5px;
+}
+
+.header-left::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  padding: 0px;
+  background: #000;
+  opacity: 0.5;
+}
+
+.name {
+  position: relative;
+  z-index: 1;
+  left: -15px;
+}
+
+.header-right {
+  background: url("./assets/image/2.jpg") no-repeat center center / cover;
+  display: flex;
+  width: 30%;
+  height: 100%;
+  padding: 0;
+}
+nav {
+  margin: 0;
+  padding: 0;
+}
+
+ul {
+  list-style: none;
+  background: #162c5b;
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul li a {
+  display: block;
+  padding: 15px 28px;
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+  font-size: 16px;
+  transition: background 0.5s ease;
+}
+
+a:hover {
+  background: #2a55b2;
+}
+
+.content-wraper {
+  display: flex;
+  height: 100%;
+}
+.content {
+  position: relative;
+  width: 70%;
+  height: 100%;
+  padding: 35px 20px 0 25px;
+}
+
+.sidebar {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+  width: 30%;
+  height: 100%;
+  border-left: 3px solid #2a55b2;
+}
+
+.underline {
+  width: 100%;
+  height: 0.05rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1rem;
+  background-color: black;
+}
+
+.hub {
+  background: none;
+  text-decoration: none;
+  color: #000;
+}
+.hub:hover {
+  background: none;
+  color: greenyellow;
+}
+
+.skills {
+  display: flex;
+  margin-top: 90px;
+  flex-direction: column;
+  justify-content: left;
+  align-items: flex-start;
+}
+i {
+  line-height: 3;
+}
+.icon {
+  font-size: 20px;
+}
+
+.about {
+  font-size: 18px;
+}
+
+.work {
+  margin: 50px 0 0 0;
+}
+
+.code {
+  background: rgb(205, 205, 205);
+}
+
+.EF {
+  text-decoration: none;
+}
+.EF:hover {
+  background: none;
+  color: brown;
+}
+
+.language {
+  background-image: url("https://i.ibb.co/wdLD2zF/EF.jpg");
+  background-size: contain;
+  background-position: center;
+  background-size: cover;
+  width: 350px;
+  height: 350px;
+}
+
+.foot {
+  display: flex;
+  padding: 0 50px 0 50px;
+  margin: 0;
+  justify-content: space-between;
+  align-items: center;
+  background: #162c5b;
+}
+
+.git {
+  color: white;
+}
+
+.year {
+  color: white;
+  font-size: 20px;
+}
+
+p {
+  font-size: 18px;
+}
